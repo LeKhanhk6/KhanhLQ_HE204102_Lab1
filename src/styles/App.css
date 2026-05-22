@@ -1,0 +1,21 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', system-ui, sans-serif;
+  padding: 20px;
+  transition: all 0.3s ease; 
+}
+
+.actions-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.like-section { text-align: center; margin-top: 20px; }
+
+.light-mode { background-color: #f0f4f8; color: #2d3748; }
+.dark-mode { background-color: #0f172a; color: #f1f5f9; }
